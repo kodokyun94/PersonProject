@@ -8,6 +8,7 @@ public class StudentSleep extends Person {
 			System.out.println("쿨쿨 잠들기.");
 		}
 
+
 		
 	}
 
