@@ -8,7 +8,7 @@ public class personTest {
 
 	public static void main(String[] args) {
 
-		Object [] testMemberObjects = new Object[17];
+		Object [] personProject = new Object[4];
 		
 		Student moon = new Student();
 		moon.speak();
@@ -20,21 +20,20 @@ public class personTest {
 		StudentSleep ko = new StudentSleep();
 		ko.sleep();
 		
-		testMemberObjects[0] = moon;
-		testMemberObjects[1] = kim;
-		testMemberObjects[2] = ko;
+		personProject[0] = moon;
+		personProject[1] = kim;
+		personProject[2] = ko;
 		
-		
-		for (Object object : testMemberObjects) {
-			Object object2 = object;
-			if(object2 instanceof Student) {
-				Student test = (Student)object2;
+		for (Object object : personProject) {
+			Object project = object;
+			if(project instanceof Student) {
+				Student test = (Student)project;
 				System.out.println();
-			} else if (object2 instanceof walk) {
-				walk test = (walk)object2;
+			} else if (project instanceof walk) {
+				walk test = (walk)project;
 				System.out.println();
-			} else if (object2 instanceof StudentSleep) {
-				StudentSleep test = (StudentSleep)object2;
+			} else if (project instanceof StudentSleep) {
+				StudentSleep test = (StudentSleep)project;
 				System.out.println();
 			}
 		}
