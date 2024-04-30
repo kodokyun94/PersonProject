@@ -16,6 +16,7 @@ public class personTest {
 		walk kim = new walk();
 		kim.walk();
 		
+		
 		StudentSleep ko = new StudentSleep();
 		ko.sleep();
 		
